@@ -9,29 +9,41 @@ const Skills = () => {
   return (
     <section id='Skills'>
       <span className='skilltitle'>What I Do</span>
-      <span className='skillDesc'>I am a skilled and passionate web designer with experience in create visually appealing amd user-friendly websites.i have a
-        strong  understanding of design and a keen eye for detail. I am proficient in HTML,CSS and JavaScript, as well as design software
-        such as adobe photoshop and illustrator. 
+      <span className='skillDesc'>I'm a skilled and passionate full-stack web designer 
+        
+        with a strong understanding of design principles and a keen eye for detail. 
+        I specialize in creating visually appealing,
+         user-friendly websites using HTML, CSS, and JavaScript on the front end,
+          and have experience with back-end development as well.
       </span>
       <div className="skillBar">
         <img src={UI} alt='UI/UX' className='skillBarImg'/>
         <div className='skillBarText'>
             <h2>UI/UX</h2>
-            <p>This is a demo text, both are most important.</p>
+            <p>We design intuitive and engaging user interfaces with a focus on smooth user experiences.
+               Every interaction is crafted to be clear, efficient, and user-friendly across all devices.
+
+.</p>
         </div>
       </div>
       <div className='skillBar'>
         <img src={web} alt='Website Design' className='skillBarImg'/>
         <div className="skillBarText">
             <h2>Website Design</h2>
-            <p>This demo text can be changed while making the production ready website.</p>
+            <p>We create modern, responsive, and user-friendly websites that reflect your brand and engage your audience. 
+              From layout to launch, every detail is crafted for performance and visual impact.
+
+</p>
         </div>
       </div>
       <div className='skillBar'>
         <img src={app} alt='App Design' className='skillBarImg'/>
         <div className="skillBarText">
             <h2>App Design</h2>
-            <p>You can write text related to mobile app development.</p>
+            <p>We specialize in building powerful, user-friendly mobile applications for both Android and iOS platforms.
+               From concept to launch, we create custom apps that are fast, secure, and scalable
+              designed to enhance user experience and meet your business goals. 
+              Whether it’s a startup idea or enterprise-level solution, we turn your vision into a mobile reality..</p>
         </div>
       </div>
     </section>

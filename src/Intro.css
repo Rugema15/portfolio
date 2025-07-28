@@ -6,14 +6,14 @@
     position: relative;
 
 }
-.Logo{
+.hero{
     position: absolute;
-    top: 150px;
-    margin: 20px;
-    right: 0;
+    top: 200px;
+    margin: 25px;
+    right: 3px;
     z-index: -3;
     object-fit: cover;
-    height: 80vh;
+    height: 65vh;
 }
 .introContent{
     height:100vh;
@@ -54,27 +54,61 @@
     color: black;
 
 }
-@media screen and (max-width:840px) {
-    .Logo{
-        right:-10vw;
-    }
-    .introContent{
-        font-size: 10vw;
-    }
-    .hello{ 
-        font-size: 4.5vw;
-    }
-    
+@media screen and (max-width: 840px) {
+  .hero {
+    right: -15vw;
+    height: 60vh;
+    top: 100px;
+    max-width: 80vw;
+    object-fit: contain;
+  }
+
+  .introContent {
+    width: 90%;
+    padding: 2rem;
+    font-size: 6vw;
+  }
+
+  .hello {
+    font-size: 4.5vw;
+  }
+
+  .intropara {
+    font-size: 3.5vw;
+  }
+
+  .btn {
+    width: 70px;
+    height: 25px;
+    font-size: smaller;
+  }
 }
-@media screen and (max-width:840px) {
-    .Logo{
-        right:-20vw;
-    }
-    .introContent{
-        font-size: 10vw;
-    }
-    .hello{
-        font-size: 4.5vw;
-    }
-    
+
+@media screen and (max-width: 480px) {
+  #Intro {
+    height: auto;
+  }
+
+  .hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: auto;
+    right: auto;
+    margin: 0 auto 1rem;
+    display: block;
+    object-fit: contain;
+  }
+
+  .introContent {
+    width: 100%;
+    padding: 1rem;
+    font-size: 5vw;
+  }
+
+  .btn {
+    width: 60px;
+    height: 25px;
+    font-size: smaller;
+  }
 }
