@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <span className="text-logo">
-        rug<span className="logo-red">ema</span>
+        ruG<span className="logo-red">ema</span>
       </span>
       <div className="nav-links">
         <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListitem">Home</Link>
